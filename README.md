@@ -30,11 +30,11 @@ dev:
 
 7. In order to test, on another host where docker is installed, pull any public docker image, such as `docker pull coreos/apache`
 
-8. Run `docker tag coreos/apache "repo_host_ip"/apache`, where "repo_host_ip" being the IP address of the host where the docker registry is running.
+8. Run `docker tag coreos/apache "repo_host_ip":5000/apache`, where "repo_host_ip" being the IP address of the host where the docker registry is running.
 
-9. Run `docker push "repo_host_ip"/apache`. This will push your image to your private registry.
+9. Run `docker push "repo_host_ip":5000/apache`. This will push your image to your private registry.
 
-10. In order to test pulling from it, delete the image you just pushed to your repo with `docker rmi "repo_host_ip"/apache`, and then subsequently run `docker pull "repo_host_ip/apache"`. This will pull the image you just removed, this time being from your private registry.
+10. In order to test pulling from it, delete the image you just pushed to your repo with `docker rmi "repo_host_ip":5000/apache`, and then subsequently run `docker pull "repo_host_ip":5000/apache`. This will pull the image you just removed, this time being from your private registry.
 
 Credits and More Info
 ==========
