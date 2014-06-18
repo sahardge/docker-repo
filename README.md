@@ -5,7 +5,7 @@ This is a repo which allows you to quickly start a private docker registry repos
 
 Requires
 ===========
-*Latest version of Docker installed on the machine you want the docker registry to be hosted on [code]docker pull registry[/code]
+*Latest version of Docker installed on the machine you want the docker registry to be hosted on `docker pull registry`
 
 HOW TO USE 
 ===========
