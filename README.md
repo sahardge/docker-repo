@@ -37,7 +37,7 @@ HOW TO USE
 
 Credits and More Info
 ==========
-The official docker registry repository image can be found at [github]https://github.com/dotcloud/docker-registry
+The official docker registry repository image can be found at [github](https://github.com/dotcloud/docker-registry)
 
 
 
