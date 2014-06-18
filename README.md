@@ -16,13 +16,13 @@ HOW TO USE
 3. The registry configuration comes from a `config.yml` file, however at the time of writing the present version (0.7.2) does not come pre-configured to work as a standalone server. Luckily it only takes the change of one environment variable in the `config.yml` so its painless.
 
 4. Put the following into a file called `config.yml` in your mounted host directory:
-`dev:
+```dev:
     storage: local
     storage_path: /registry
     loglevel: debug
     standalone: true # do not use public index
     secret_key: test-registry
-`
+```
 5. Run `docker run -p 5000:5000 -v /registry:/registry -e DOCKER_REGISTRY_CONFIG=/registry/config.yml registry`
 
 6. You now have a private docker registry running in its own docker container! 
