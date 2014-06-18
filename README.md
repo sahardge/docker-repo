@@ -16,7 +16,8 @@ HOW TO USE
 3. The registry configuration comes from a `config.yml` file, however at the time of writing the present version (0.7.2) does not come pre-configured to work as a standalone server. Luckily it only takes the change of one environment variable in the `config.yml` so its painless.
 
 4. Put the following into a file called `config.yml` in your mounted host directory:
-``` dev:
+``` 
+dev:
     storage: local
     storage_path: /registry
     loglevel: debug
