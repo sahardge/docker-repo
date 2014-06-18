@@ -1,0 +1,6 @@
+dev:
+    storage: local
+    storage_path: /registry
+    loglevel: debug
+    standalone: true # do not use public index
+    secret_key: test-registry
