@@ -34,7 +34,7 @@ dev:
 
 9. Run `docker push "repo_host_ip"/apache`. This will push your image to your private registry.
 
-10. In order to test pulling from it, delete the image you just pushed to your repo with `docker rmi "repo_host_ip"/apache`, and then subsequently run `docker pull "repo_host_ip/apache". This will pull the image you just removed, this time being from your private registry.
+10. In order to test pulling from it, delete the image you just pushed to your repo with `docker rmi "repo_host_ip"/apache`, and then subsequently run `docker pull "repo_host_ip/apache"`. This will pull the image you just removed, this time being from your private registry.
 
 Credits and More Info
 ==========
